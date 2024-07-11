@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <style>
+        .button {
+            height: 80px;
+            width: 80px;
+            border-radius: 30px;
+            font-size: 50px;
+            margin-top: 15px;
+
+        }
+    </style>
+    <title>Calculator</title>
+</head>
+
+<body style="background-color: silver;">
+    <div>
+        <center>
+            <div
+                style="width: 400px; height: 550px;background-color:white;margin-top: 25px;border-radius: 20px;font-size: px;">
+                <p id="calculatorvalue" placeholder="0"
+                    style="margin-top: 40px;width: 320px;height: 80px;border-radius: 20px;font-size: 50px;">
+                    0
+                </p>
+                <div style="display: flex;">
+                    <button onclick="onclickbuttonSeven()" id="button-7" class="button"
+                        style="margin-left: 37px;">7</button>
+                    <button onclick="onclickbuttonEight()" class="button" style="margin-left: 3px;">8</button>
+                    <button onclick="onclickbuttonNine()" class="button" style="margin-left: 3px;">9</button>
+                    <button onclick="onclickminus()" class="button" style="margin-left: 3px;background-color: orange;">-</button>
+                </div>
+                <button onclick="onclickbuttonfour()" class="button">4</button>
+                <button onclick="onclickbuttonfive()" class="button">5</button>
+                <button onclick="onclickbuttonSix()" class="button">6</button>
+                <button onclick="onclickdivide()"  class="button" style="background-color: orange;">/</button>
+                <button onclick="onclickbuttonone()" class="button">1</button>
+                <button onclick="onclickbuttontwo()" class="button">2</button>
+                <button onclick="onclickbuttonthree()" class="button">3</button>
+                <button onclick="onclickmultiply()" class="button" style="background-color: orange;">*</button>
+                <button onclick="onclickadd()" class="button">C</button>
+                <button onclick="onclickbuttonzero()" class="button">0</button>
+                <button onclick="calculate()" class="button" style="background-color: orange;">=</button>
+                <button onclick="onclickadd()" class="button" style="background-color: orange;">+</button>
+            </div>
+        </center>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
